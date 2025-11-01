@@ -184,10 +184,7 @@ mvn spring-boot:run
 ```
 
 ### 4️⃣ Access in Browser
-
-```
-http://localhost:9999/library-app
-```
+👉 **[http://localhost:9999/library-app](http://localhost:9999/library-app)**
 
 ---
 
