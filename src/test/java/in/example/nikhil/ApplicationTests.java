@@ -1,10 +1,10 @@
-package in.pwskills.nikhil;
+package in.example.nikhil;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootMvc01ApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {

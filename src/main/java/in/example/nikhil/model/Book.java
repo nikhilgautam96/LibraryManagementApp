@@ -1,4 +1,4 @@
-package in.pwskills.nikhil.model;
+package in.example.nikhil.model;
 
 import java.io.Serializable;
 

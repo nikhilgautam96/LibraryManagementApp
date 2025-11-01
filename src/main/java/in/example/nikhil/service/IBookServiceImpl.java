@@ -1,4 +1,4 @@
-package in.pwskills.nikhil.service;
+package in.example.nikhil.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,8 +8,8 @@ import java.util.stream.StreamSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import in.pwskills.nikhil.dao.IBookRepository;
-import in.pwskills.nikhil.model.Book;
+import in.example.nikhil.dao.IBookRepository;
+import in.example.nikhil.model.Book;
 
 @Service
 public class IBookServiceImpl implements IBookService {

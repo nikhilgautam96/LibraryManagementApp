@@ -1,9 +1,9 @@
-package in.pwskills.nikhil.service;
+package in.example.nikhil.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import in.pwskills.nikhil.model.Book;
+import in.example.nikhil.model.Book;
 
 public interface IBookService {
 	

@@ -1,4 +1,4 @@
-package in.pwskills.nikhil.controller;
+package in.example.nikhil.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import in.pwskills.nikhil.model.Book;
-import in.pwskills.nikhil.service.IBookService;
+import in.example.nikhil.model.Book;
+import in.example.nikhil.service.IBookService;
 
 @Controller
 public class LibraryController {
@@ -66,6 +66,5 @@ public class LibraryController {
 		model.addAttribute("books", service.findAllBooks());
 		return "books";
 	}
-	
 
 }

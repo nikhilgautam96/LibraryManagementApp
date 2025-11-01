@@ -1,13 +1,7 @@
-Perfect 👍 — based on your complete project structure and code, here’s a **professional, recruiter-ready `README.md`** for your **SpringBootMvc-LibraryManagementApp**.
-It highlights that it’s a *full-stack* Java web app using **Spring Boot MVC + JSP (frontend)** and **Spring Data JPA + MySQL (backend)**.
+## 📚 LibraryManagementApp (Fullstack App)
 
----
-
-```markdown
-# 📚 SpringBootMvc-LibraryManagementApp
-
-A **full-stack Spring Boot MVC application** for managing a digital library system.  
-This app enables users to **add, view, update, and delete books** through a clean JSP-based UI integrated with a **Spring Boot + JPA** backend.
+- A **full-stack Spring Boot MVC application** for managing a digital library system.  
+- This app enables users to **add, view, update, and delete books** through a clean JSP-based UI integrated with a **Spring Boot + JPA** backend.
 
 ---
 
@@ -41,11 +35,10 @@ This app enables users to **add, view, update, and delete books** through a clea
 ## 📂 Project Structure
 
 ```
-
 src/
 ├── main/
 │   ├── java/
-│   │   └── in/pwskills/nikhil/
+│   │   └── in/example/nikhil/
 │   │        ├── controller/
 │   │        │    └── LibraryController.java      # Handles all UI routes and CRUD requests
 │   │        ├── model/
@@ -55,7 +48,7 @@ src/
 │   │        │    └── IBookServiceImpl.java       # Service implementation
 │   │        ├── dao/
 │   │        │    └── IBookRepository.java        # JPA Repository interface
-│   │        └── SpringBootMvc01Application.java  # Main application class
+│   │        └── Application.java  # Main application class
 │   └── resources/
 │        ├── application.properties               # DB config and MVC setup
 │        └── static/ & templates/ (if any)
@@ -74,7 +67,7 @@ src/
 
 ### `application.properties`
 ```properties
-spring.application.name=SpringBootMVC-01
+spring.application.name=LibraryManagementApp
 server.port=9999
 server.servlet.context-path=/library-app
 
@@ -82,9 +75,9 @@ spring.mvc.view.prefix=/WEB-INF/view/
 spring.mvc.view.suffix=.jsp
 
 # MySQL Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/pwskillsjavafullstackbatch
-spring.datasource.username=nikhil
-spring.datasource.password=personal8877
+spring.datasource.url=jdbc:mysql://localhost:3306/<your-database>
+spring.datasource.username=<your-username>
+spring.datasource.password=<your-password>
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 # Hibernate Configuration
@@ -169,8 +162,8 @@ Key dependencies from `pom.xml`:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/SpringBootMvc-LibraryManagementApp.git
-cd SpringBootMvc-LibraryManagementApp
+git clone https://github.com/nikhilgautam96/LibraryManagementApp.git
+cd LibraryManagementApp
 ```
 
 ### 2️⃣ Configure MySQL
@@ -178,7 +171,7 @@ cd SpringBootMvc-LibraryManagementApp
 Create a database:
 
 ```sql
-CREATE DATABASE pwskillsjavafullstackbatch;
+CREATE DATABASE <your-database>;
 ```
 
 Update credentials in `application.properties` if necessary.
@@ -233,11 +226,3 @@ It’s ideal for demonstrating proficiency in **Java full-stack web development*
 
 👨‍💻 **Author:** Nikhil Gautam
 📧 *Developed as part of Spring Boot Full Stack Practice Projects*
-
-```
-
----
-
-Would you like me to add a short “📘 Learning Highlights” section (e.g., what key Spring concepts this app demonstrates — autowiring, Model usage, MVC flow, etc.) to make it look even more impressive for recruiters?
-```
-

@@ -1,13 +1,13 @@
-package in.pwskills.nikhil;
+package in.example.nikhil;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootMvc01Application {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMvc01Application.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
