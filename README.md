@@ -145,6 +145,7 @@ Key dependencies from `pom.xml`:
 3. **View All (`/disp`)**
 
    * Fetches all books and displays them in a table.
+   * Also has feature to edit/delete or Add a new book.
 4. **Edit (`/{id}`)**
 
    * Loads the book details for editing.
